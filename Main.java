@@ -22,7 +22,7 @@ public class Main {
                     String nome = scanner.nextLine();
                     System.out.print("Digite a idade: ");
                     int idade = scanner.nextInt();
-                    scanner.nextLine(); // Consumir a quebra de linha
+                    scanner.nextLine();
                     System.out.print("Digite o e-mail: ");
                     String email = scanner.nextLine();
                     pessoa = new Pessoa(nome, idade, email);
